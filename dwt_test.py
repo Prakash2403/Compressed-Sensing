@@ -5,7 +5,7 @@ import cv2
 
 
 # Load image
-original = cv2.imread('black-white-animal.jpg', cv2.IMREAD_GRAYSCALE)
+original = cv2.imread('images/black-white-animal.jpg', cv2.IMREAD_GRAYSCALE)
 print(original.shape)
 # Wavelet transform of image, and plot approximation and details
 titles = ['Approximation', ' Horizontal detail',
